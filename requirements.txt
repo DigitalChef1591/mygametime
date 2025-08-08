@@ -1,0 +1,19 @@
+# PDF Conversion Dependencies for FairCart Business Plan
+# Install with: pip install -r requirements.txt
+
+# Core PDF generation library
+weasyprint>=60.0
+
+# WeasyPrint dependencies (usually installed automatically)
+cffi>=1.15.0
+pycparser>=2.21
+pyphen>=0.13.0
+tinycss2>=1.2.0
+cssselect2>=0.7.0
+
+# Additional utilities for better font and image handling
+Pillow>=9.0.0
+fonttools>=4.30.0
+
+# Optional: Better HTML parsing (if needed for complex HTML)
+lxml>=4.9.0
